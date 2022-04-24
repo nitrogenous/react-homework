@@ -1,0 +1,28 @@
+.carousel-wrapper {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  display: inline-flex;
+
+  .carousel-controllers {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    background: #fdf0d5dc;
+    justify-content: space-between;
+
+    button {
+      border: none;
+      padding: 15px;
+      color: #d81e5b;
+      font-weight: bold;
+      background: transparent;
+
+      &:hover {
+        cursor: pointer;
+        background: #3a3335;
+      }
+    }
+  }
+}

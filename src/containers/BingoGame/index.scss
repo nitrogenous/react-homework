@@ -1,0 +1,29 @@
+.bingo-wrapper {
+  .bingo-controls {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+
+    .pick-number-button {
+      border: none;
+      padding: 10px;
+      color: #3a3335;
+      font-weight: bold;
+      margin-right: 50px;
+      border-radius: 5px;
+      background: #69ceee;
+
+      &:hover {
+        cursor: pointer;
+        color: #fff;
+        background: #087e8b;
+      }
+    }
+
+    .announcement-text {
+      color: #4257a9;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+}

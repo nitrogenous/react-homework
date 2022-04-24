@@ -1,0 +1,44 @@
+.bingo-card {
+  margin: 10px;
+  padding: 15px;
+  color: white;
+  display: inline-flex;
+  border-radius: 10px;
+  flex-direction: column;
+  background: #087e8b;
+
+  .bingo-numbers-wrapper {
+    overflow: hidden;
+    border-radius: 5px;
+    display: inline-flex;
+  }
+
+  .bingo-number {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+
+    &.number-0,
+    &.number-4 {
+      background: #6d737b;
+    }
+
+    &.number-1,
+    &.number-5 {
+      background: #f5c344;
+    }
+
+    &.number-2,
+    &.number-6 {
+      background: #c94549;
+    }
+
+    &.number-3,
+    &.number-7 {
+      background: #316aef;
+    }
+  }
+}
